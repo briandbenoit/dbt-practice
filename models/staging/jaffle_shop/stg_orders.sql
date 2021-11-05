@@ -7,4 +7,4 @@ with orders as (
     from raw.jaffle_shop.orders
 )
 
-select * from orders
+select * from {{ source('jaffle_shop', 'orders')}}
