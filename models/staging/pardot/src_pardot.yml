@@ -1,0 +1,18 @@
+version: 2
+
+sources:
+    - name: pardot_prod
+      description: Pardot data in snowflake
+      database: raw_datalake
+      tables: 
+        - name: campaigns
+        - name: email_clicks
+        - name: lists
+        - name: list_memberships
+        - name: opportunities
+        - name: prospects
+        - name: prospect_accounts
+        - name: users
+        - name: visitors
+        - name: visitor_activities
+        - name: visits

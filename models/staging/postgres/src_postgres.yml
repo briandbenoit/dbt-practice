@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+    - name: prod_w50postgres
+      description: Mixpanel data in Snowflake
+      database: raw_datalake
+      tables: 
+        - name: person
+          description: data on members and other affiliated people

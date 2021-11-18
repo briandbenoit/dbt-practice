@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+    - name: prod_mixpanel
+      description: Mixpanel data in Snowflake
+      database: snowpipe
+      tables: 
+        - name: export
+          description: Raw exported data (events)

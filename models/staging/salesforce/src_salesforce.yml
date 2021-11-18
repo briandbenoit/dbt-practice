@@ -1,0 +1,13 @@
+version: 2
+
+sources:
+    - name: salesforce_prod
+      description: Salesforce data in snowflake
+      database: raw_datalake
+      tables: 
+        - name: account
+        - name: campaign
+        - name: campaignmember
+        - name: campaignmemberstatus
+        - name: contact
+        - name: memberstatus__c
